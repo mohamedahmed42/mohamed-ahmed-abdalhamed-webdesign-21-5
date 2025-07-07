@@ -1,0 +1,65 @@
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p1 {
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.618);
+    height: 10vh;
+    position: absolute;
+
+}
+.cards {
+    width: 25%;
+    margin-top: 12%;
+        position: relative;
+
+}
+.cards h1{
+    color: aqua;
+}
+.cards hr{
+    border: 3px solid;
+    width: 15%;
+    margin: 2% 0 2% 1%;
+}
+.cards img {
+    width: 100%;
+}
+
+.cards h1 {
+    padding-top: 5%;
+}
+
+.cards p {
+    width: 90%;
+    padding-top: 10%;
+}
+.cards button{
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    border: 0px solid;
+    background-color: rgba(0, 0, 0, 0);
+    width: 35%;
+    padding: 1%;
+    color: white;
+    font-size: 20px;
+}
+
